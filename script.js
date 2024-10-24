@@ -1,0 +1,11 @@
+/* add-image */
+document.getElementById("product__img-1").style.backgroundImage = "url(https://cf.shopee.vn/file/e26394e62abc77979e3870d3e2126a33_tn)"
+document.getElementById("product__img-2").style.backgroundImage = "url(https://cf.shopee.vn/file/9642d71bea8383ee5c1483c6c86ebaaf_tn)"
+document.getElementById("product__img-3").style.backgroundImage = "url(https://cf.shopee.vn/file/9454c4acfe436d7b7395c49c1b6bf78c_tn)";
+document.getElementById("product__img-4").style.backgroundImage = "url(https://cf.shopee.vn/file/5fa365f5f8d16b17d5e8a9e54f37a371_tn)";
+document.getElementById("product__img-5").style.backgroundImage = "url(https://cf.shopee.vn/file/239db177b2c36a7847dac476490b5617_tn)";
+document.getElementById("product__img-6").style.backgroundImage = "url(https://cf.shopee.vn/file/9c63e0f31821bbeaed3a6159670e93a4_tn)";
+document.getElementById("product__img-7").style.backgroundImage = "url(https://cf.shopee.vn/file/7dfeb66bd63cf2e0a00726ff7d9e1748_tn)";
+document.getElementById("product__img-8").style.backgroundImage = "url(https://cf.shopee.vn/file/f58867154ab6cf2be08be975b2a8cfb3_tn)";
+document.getElementById("product__img-9").style.backgroundImage = "url(https://cf.shopee.vn/file/f58867154ab6cf2be08be975b2a8cfb3_tn)";
+document.getElementById("product__img-10").style.backgroundImage = "url(https://cf.shopee.vn/file/8fac4b6589ba41750a34ef85fb86f65e_tn)";

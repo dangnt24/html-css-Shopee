@@ -1,0 +1,198 @@
+:root {
+    --text-color: white;
+    --primary-color: #f63f2e;
+    --header-height: 120px;
+    --header__navbar-height: 39px;
+    --header__body-height: calc(var(--header-height) - var(--header__navbar-height))
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.grid__row-2 {
+    margin: 0 -5px;
+}
+
+.grid__column-2 {
+    width: 16.6667%;
+    padding: 0 10px;
+}
+
+.grid__column-2-1 {
+    width: 20%;
+    padding: 0 10px;
+}
+
+.grid__column-2-2 {
+    width: 16.6667%;
+}
+
+.grid__column-10 {
+    width: 83.3333%;
+    padding: 0 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slow_growth {
+    from {
+        transform: scale(0.7);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0, 0, 0.4);
+    animation: fadeIn linear 0.1s;
+}
+
+.modal__form {
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    animation: slow_growth linear 0.15s;
+}
+
+.btn {
+    min-width: 142px;
+    height: 34px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #333;
+    background-color: white;
+    padding: 0;
+    border-radius: 2px;
+}
+
+.btn--red {
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+.btn--disabled {
+    background-color:#f9f9f9;
+    color: #ccc;
+    cursor: default;
+}
+
+.btn--disabled-red {
+    background-color:rgba(246, 63, 46, 0.6);
+    cursor: default;
+}
+
+.navbar__btn {
+    width: 4rem;
+    height: 3rem;
+    background-color: #f5f5f5;
+    font-size: 2.2rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.navbar__btn--red {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+.navbar__btn--red:hover {
+    background-color: rgba(246, 63, 46, 0.8);
+}
+
+.grid__column-2in12 {
+    width: 20%;
+    padding: 5px;
+}
+
+
+.footer__logo {
+    background-image: url(file:///D:/Web/practice/assets/picture/logo.png);
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 18px;
+}
+
+.footer__logo-facebook {
+    width: 2rem;
+    height: 2rem;
+    background-size: 350px 89px;
+    background-position: -3px -23px;
+}
+
+.footer__logo-instagram {
+    width: 2rem;
+    height: 2rem;
+    background-size: 350px 89px;
+    background-position: -98px -27px;
+}
+
+.footer__logo-linkedin {
+    width: 2rem;
+    height: 2rem;
+    background-size: 350px 89px;
+    background-position: -153px -3px;
+}
+
+.footer__logo-subscribed {
+    width: 120px;
+    height: 48px;
+    background-size: 740px 200px;
+    background-position: -214px -126px;
+    margin: 0 20px;
+}
+
+.footer__logo-fingerprint {
+    width: 48px;
+    height: 48px;
+    background-size: 740px 180px;
+    background-position: -691px -47px;
+    margin: 0 20px;
+}
